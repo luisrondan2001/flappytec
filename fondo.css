@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(nubes1.gif);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
