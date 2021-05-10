@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.diapositiva{
+    width: 100vw;
+    height: 100vh; 
+}
+.envoltura{
+    display: flex;
+    flex-direction: row;
+    width: 400vh;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.uno{
+    background: #70d0db
+}
+.dos{
+    background: rgb(41, 252, 94);
+}
+.tres{
+    background: rgb(228, 145, 203);
+}
+.cuatro{
+    background: rgb(231, 230, 135);
+}
+.otra-envoltura{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.FuenteTitulo{
+    font-family: 'VT323', monospace;
+}
