@@ -7,11 +7,15 @@
 
 }
 
+.fixpiece{
+  position: fixed;
+  display: block;
+
+}
 
 body{
     margin: 0;
     padding: 0;
-    
     
 }
 .diapositiva{
@@ -30,8 +34,9 @@ body{
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
+/*----fondos */
+
 .uno{
-    
     background: url(/IMG/fondo01fb.gif);   
     background-size: cover;
     background-position: center;
@@ -106,6 +111,10 @@ aside{
     padding: 80px;
     box-sizing: border-box;
 align-items: center;
+}
+.img1, .img2, .img3, .img4, .img5{
+    
+
 }
 
 

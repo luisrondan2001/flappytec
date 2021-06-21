@@ -9,11 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/estilo.css">
+    <script src="JS/Java.js" ></script>
+    
 </head>
 <body>
+    <footer>
     <div class="otra-envoltura" >
-        <div class="envoltura">
+            <div class="envoltura">
             <div class="diapositiva uno">
+                
                  <!--botones principales ashley-->
   <div style="text-align: right;" >
     <table>
@@ -26,8 +30,10 @@
        <input class="FuenteTitulo1 redondeo" type="button" value="Articulos"></a>
        <a href="Contactos.html">
        <input class="FuenteTitulo1 redondeo" type="button" value="Contacto"></a>
+       
       </tr>
     </table>
+
   </div>
   <!--este es el titulo centrado-->
   <p align="center"
@@ -35,18 +41,22 @@
  </p>
  <P align="center" class="FuenteTitulo"> 
      Un blog de tendencias en tecnologia
+     
  </P>
-                
+ 
+ <img id="fixpiece" src="/IMG/eltioalbert.gif" style="width: 325px; height: 400px;" sizes="fixed">
+    
 
+   
             </div><!--cierre diapo uno-->
             <div class="diapositiva dos" >
                 <form> <p class="FuenteTitulo">Registrate y unete a la comunidad!</p>
-                    <input class="FuenteTitulo" type="text" placeholder="correo">
+                    <input id="correo"  type="text" placeholder="correo" onclick="return sololetras(event)">
                     <br><br>
-                    <input class="FuenteTitulo" type="password" placeholder="contraseña">
+                    <input id="password"  type="password" placeholder="contraseña">
                     <br><br>
-                     <a href="GraciasporSuscribirte.html">
-                    <input class="FuenteTitulo" type="button" value="enviar"></a>
+                    
+                    <input id="enviar" type="button" value="enviar" onclick="ingresar()"></a>
             
                 </form>
                 <br>
@@ -106,5 +116,6 @@
                  </form>
             </div><!--Ciere Diapositiva 5-->
     </div>
+</footer>
 </body>
 </html>

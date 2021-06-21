@@ -6,8 +6,6 @@
     --blue: #3498DB;
 
 }
-
-
 body{
     margin: 0;
     padding: 0;
@@ -31,7 +29,6 @@ body{
     -ms-overflow-style: none;
 }
 .uno{
-    
     background: url(/IMG/fondo01fb.gif);   
     background-size: cover;
     background-position: center;
@@ -97,7 +94,6 @@ body{
 .FuenteTitulo, td, p{
     font-family: 'VT323', monospace;
 }
-
 
 
 /* estilo de imagenes y posiciones**/
