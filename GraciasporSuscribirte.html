@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Csstyle/estilo.css">
+    <link rel="stylesheet" href="/Css/estilo2.css">
+    <script src="/JS/Java.js"></script>
     <title>flapytec</title>
 </head>
 <body>
@@ -22,13 +23,12 @@
   </div>
 </div>
      <!--este es el titulo centrado-->
-     <p align="center"
+     <p align="center">
      <td> <img src="/IMG/Pajarito.png" style="width:500px;height:288px;" ></td>
         </p>
         <P align="center"> 
       <font face="verdana"> Un blog de tendencias en tecnologia</font>
         </P>
- 
 
  </body>
  <!--Texto Gracias por suscribirte ANGELMENDOZA-->
@@ -41,15 +41,22 @@
 
     </div>
     <!--Fin de texto Suscribirte ANGELMENDOZA-->
-   <div>
-    <form> <p>envianos tu comentario</p>
-        <input type="text" placeholder="correo">
+    <!--Ashley java formulario :D-->
+   <div class=formulario>
+    <form align=center> <H2>LLena tus Datos</H2>
+        <input type="text" id="nombre" onclick="return sololetras(event)" placeholder="Nombres">
         <br><br>
-        <input type="text" placeholder="comentario">
-    
+        <input type="text" id="apellido" onclick="return sololetras(event)" placeholder="Apellidos">
+        <br><br>
+        <input type="text" id="edad" onclick="return solonumeros(event)" placeholder="Edad">
+        <br><br>
+        <input type="text" id="direccion" onclick="return sololetras(event)" placeholder="Direccion">
+        <br><br>
+        <input type="text" id="sexo" onclick="return sololetras(event)" placeholder="sexo">
         <br><br>
 
-        <input type="button" value="enviar">
+        <input id="registrar1" type="button" value="registrar" onclick="registrar()"> <input type="button" value="cancelar">
+
 
      </form>
      

@@ -1,0 +1,13 @@
+body{
+    background: url(/IMG/fondo01fb.gif);
+    background-size: cover;
+    background-position: center;    
+}
+.formulario{
+    background: url(/IMG/formulari22.gif);
+    margin-right: 900px;
+    padding: 3%;
+    float: right;    
+    background-position: center;
+    position: relative;
+}
