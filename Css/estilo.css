@@ -7,15 +7,18 @@
 
 }
 
-.fixpiece{
+#fixpiece{
   position: fixed;
   display: block;
-
+  bottom: 100px;
 }
 
 body{
+    background: url(/IMG/eltioalbert.gif);
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
+    position: fixed;
     
 }
 .diapositiva{
@@ -57,7 +60,7 @@ body{
     background-position: center;
 }
 .cinco{
-    background: url(/IMG/fondo01fb.gif);   
+    background: url(/IMG/fondo01fb.gif);  
     background-size: cover;
     background-position: center;
 }
@@ -75,7 +78,7 @@ body{
 ::-webkit-scrollbar{
     display: none;
 }
-.FuenteTitulo1{
+.FuenteTitulo1,#enviar{
     font-family: 'VT323', monospace;
     position: relative;
     display: inline-block;
@@ -112,11 +115,54 @@ aside{
     box-sizing: border-box;
 align-items: center;
 }
-.img1, .img2, .img3, .img4, .img5{
-    
+#img11, #img12, #img13, #img14, #img15{
+    border-style: groove;
+    border-color: goldenrod;
 
 }
-
-
-
-
+/*iconos ashley villanueva :)*/
+#btn-mas{
+    display: none;
+}
+.iconos{
+    position: fixed;
+    bottom:20px;
+    left: 20px;
+}
+.redes a, .icon-th-large{
+    display: block;
+    text-decoration: none;
+    background: #70d0db;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background:#fff;
+    color:#70d0db;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.icon-th-large{
+    cursor: pointer;
+    background:#70d0db;
+    font-size: 23px;
+    
+}
+#btn-mas:checked ~.btn-mas .icon-th-large{
+    transform: rotate(137deg);
+    font-size: 25px;
+}

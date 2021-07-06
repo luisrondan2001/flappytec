@@ -55,10 +55,26 @@ function ingresar(){
     }
 
   }
-  function sololetras(event){
-    if (event.keyCode >48 && event.keyCode  <62) event.returnValue = false;
- } 
- function solonumeros(event){
-   if (event.keyCode >65 && event.keyCode <126) event.returnValue = false;
+//function sololetras(){
+  //  if (event.keyCode >48 && event.keyCode  <62) event.returnValue = false;
+ //} 
+ //function solonumeros(event){
+   //if (event.keyCode >65 && event.keyCode <126) event.returnValue = false;
 
-  }
+  //}
+ function validanombre(event){
+    if (window.event.keyCode<65 || window.event.keyCode>90 && window.event.keyCode<97 || window.event.keyCode>122)
+        {
+            alert("Solo caracteres");
+            event.returnValue = false;
+        }
+    }
+    function valida(event)
+    {
+        if (window.event.keyCode<48 || window.event.keyCode>57)
+        {
+                alert("Solo ingresar números");
+                event.returnValue = false;
+        }
+    }
+    

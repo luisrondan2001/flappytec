@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Css/estilo2.css">
     <script src="/JS/Java.js"></script>
     <title>flapytec</title>
@@ -14,10 +17,13 @@
     <table>
       <tr>
         <a href="flappytec.html">
-       <input type="button" value="Inicio"></a>  
-       <input type="button" value="Quienes somos">
-       <input type="button" value="Artículos">
-       <input type="button" value="Contacto">
+          <input class="FuenteTitulo1 redondeo" type="button" value="Inicio"></a>
+          <a href="Quienessomos.html">
+          <input class="FuenteTitulo1 redondeo" type="button" value="Quienes somos"></a>
+          <a href="Articulos.html">
+          <input class="FuenteTitulo1 redondeo" type="button" value="Articulos"></a>
+          <a href="Contactos.html">
+          <input class="FuenteTitulo1 redondeo" type="button" value="Contacto"></a>
       </tr>
     </table>
   </div>
@@ -44,18 +50,19 @@
     <!--Ashley java formulario :D-->
    <div class=formulario>
     <form align=center> <H2>LLena tus Datos</H2>
-        <input type="text" id="nombre" onclick="return sololetras(event)" placeholder="Nombres">
+        <input type="text" id="nombre" onkeypress=validanombre() placeholder="Nombres">
         <br><br>
         <input type="text" id="apellido" onclick="return sololetras(event)" placeholder="Apellidos">
         <br><br>
-        <input type="text" id="edad" onclick="return solonumeros(event)" placeholder="Edad">
+        
+        <input type="text" id="edad" onKeyPress="valida()" placeholder="Edad">
         <br><br>
         <input type="text" id="direccion" onclick="return sololetras(event)" placeholder="Direccion">
         <br><br>
         <input type="text" id="sexo" onclick="return sololetras(event)" placeholder="sexo">
         <br><br>
 
-        <input id="registrar1" type="button" value="registrar" onclick="registrar()"> <input type="button" value="cancelar">
+        <input id="registrar1" type="button" value="registrar" onclick="registrar()"> <input id="registrar2" type="button" value="cancelar">
 
 
      </form>
