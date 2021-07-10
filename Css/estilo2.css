@@ -11,6 +11,71 @@ body{
     background-size: cover;
     background-position: center;    
 }
+#pato{
+    position: fixed;
+}
+/**TITULOS*/
+.cont{
+    padding-left: 40%;
+}
+.cont span {
+    font-size: 50pt;
+    font-weight: bold;
+    position: relative;
+    font-family: "Fredoka One";
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+  .cont span::before {
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+  }
+  .cont span::after {
+    content: var(--l);
+    position: absolute;
+    height: 200%;
+    width: 300px;
+    top: 80%;
+    left: 0;
+    filter: blur(30px);
+    transform: rotateX(50deg);
+  }
+  .cont span:hover {
+    filter: contrast(250%);
+  }
+  .cont span:nth-child(1) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(2) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(3) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(4) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(5) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(6) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(7) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(8) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(9) {
+    color: #ffe600;
+  }
+  .cont span:nth-child(10) {
+    color: #ffe600;
+  }
+
 .formulario{
     background: url(/IMG/formulari22.gif);
     margin-right: 900px;
@@ -47,4 +112,79 @@ body{
 }
 .FuenteTitulo1.redondeo ,#registrar1,#registrar2{
     font-family: 'VT323', monospace;
+}
+/*articulos*/
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+  }
+.img{
+    max-width: 100%;
+    display: block;
+}
+
+.banner{
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+.cuadros{
+    background-color: azure;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+
+    transition: all 300ms;
+
+    position: relative;
+}
+.cuadros:hover {
+    transform: scale(1.05);
+}
+.cuadros::after{
+    content: "";
+    background-color:rgba(179 ,229,252,.1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+.cuadros:hover:after{
+    opacity: 1;
+    transform: scale(1);
+}
+.img{
+    max-width: 100%;
+    display: block;
+}
+.texto{
+    padding: 1em;
+}
+@media screen and (min-width:590px){
+    .banner{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width:960px){
+    .banner{
+        grid-template-columns:repeat(3, 1fr);
+    }
 }
