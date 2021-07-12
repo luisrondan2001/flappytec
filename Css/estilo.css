@@ -6,7 +6,12 @@
     --blue: #3498DB;
 
 }
+.prueba1{
+  position: relative;
+  right: -180px;
+  bottom: -500px;
 
+}
 #fixpiece{
   position: fixed;
   display: block;
@@ -39,27 +44,27 @@ body{
 /*----fondos */
 
 .uno{
-    background: url(/IMG/fondo01fb.gif);   
+    background: url(/IMG/fondo01.2fb.gif);   
     background-size: cover;
     background-position: 0em;
 }
 .dos{
-    background: url(/IMG/fondo01fb.gif);   
+    background: url(/IMG/fondo01.2fb.gif);   
     background-size: cover;
     background-position: center;
 }
 .tres{
-    background: url(/IMG/fondo01fb.gif);   
+    background: url(/IMG/fondo01.2fb.gif);   
     background-size: cover;
     background-position: center;
 }
 .cuatro{
-    background: url(/IMG/fondo01fb.gif);   
+    background: url(/IMG/fondo01.2fb.gif);   
     background-size: cover;
     background-position: center;
 }
 .cinco{
-    background: url(/IMG/fondo01fb.gif);  
+    background: url(/IMG/fondo01.2fb.gif);  
     background-size: cover;
     background-position: center;
 }

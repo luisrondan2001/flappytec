@@ -7,7 +7,7 @@
 
 }
 body{
-    background: url(/IMG/fondo01fb.gif);
+    background: url(/IMG/fondo01.2fb.gif);
     background-size: cover;
     background-position: center;    
 }
@@ -133,10 +133,10 @@ body{
 .banner{
     width: 90%;
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-left: auto;/*auto*/
+    margin-right: auto;/*auto*/
+    margin-top: 3em;/*3em*/
+    margin-bottom: 3em;/*3em*/
     
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -146,6 +146,7 @@ body{
     background-color: azure;
     cursor: pointer;
     box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+    font-family: "Fredoka One";
 
     transition: all 300ms;
 

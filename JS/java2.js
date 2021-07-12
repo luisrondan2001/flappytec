@@ -1,3 +1,7 @@
+
+function ref(event){
+    window.location.assign('https://e.huawei.com/en/talent/#/ict/become-ict-student');
+}
 function registrar(){
     var registro=document.getElementById('registrar1').value;
     var nnombre=document.getElementById('nombre').value;

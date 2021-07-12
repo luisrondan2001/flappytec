@@ -77,4 +77,6 @@ function ingresar(){
                 event.returnValue = false;
         }
     }
-    
+function ref(){
+    location.href = "https://e.huawei.com/en/talent/#/ict/become-ict-student";
+}
