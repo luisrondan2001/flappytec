@@ -1,0 +1,11 @@
+.somos {
+    font-family: 'VT323', monospace;
+    position: sticky;
+    font-size: 20pt;
+    
+    border-radius: 100px;
+    box-shadow: inset 0 0 20px var(--white  );
+
+
+  
+}
